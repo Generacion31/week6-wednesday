@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__item {
+  margin: 0 10px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main__title {
+  font-size: 28px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.main__article {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main__article-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.main__article-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+
+.main__article#js {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.main__article-title#js {
+  font-size: 28px;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.main__article p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.main__article h3 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.main__article strong {
+  font-weight: bold;
+}
+
+.main__article ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.main__article>ul>li {
+  margin-bottom: 10px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.main__article>ul>li:hover {
+  margin-bottom: 10px;
+  transform: scale(102%);
+}
+
+.main__article-list {
+  list-style: none;
+  padding: 0;
+}
+
+.main__article-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+}
+
+.main__article-list li h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.main__article-list li h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.main__article-list li h3::first-letter,
+.main__article-list li h4::first-letter {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
