@@ -65,9 +65,9 @@ console.log('tengo prisa, ejecutar ya y no quiero esperar 5 segundos');
 
 function consumirApiFetch() { //fetch = buscar
   fetch('https://jsonplaceholder.typicode.com/posts')
-    .then((res) => {
-      return res.json()
-    })
+    .then((res) =>
+      res.json()
+    )
     .then((data) => {
       console.log(data)
       for (const value of data) {
